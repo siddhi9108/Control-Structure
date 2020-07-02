@@ -20,14 +20,14 @@ public class NestedIf {
                 System.out.println("Capital");
             }
         }
-        if (x >= 65) {
-            if (x <= 90) {
-                System.out.println("Capital");
+        if (x >= 97) {
+            if (x <= 122) {
+                System.out.println("Small");
             }
         }
-        if (x >= 65) {
-            if (x <= 90) {
-                System.out.println("Capital");
+        if (x >= 48) {
+            if (x <= 57) {
+                System.out.println("Digit");
             }
         }
     }
